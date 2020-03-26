@@ -35,7 +35,7 @@ goal :-
 
     enrolled(student, core(bcyber, 16), 3, 2, comp3310),
     enrolled(student, core(bcyber, 18), 3, 2, comp3850),
-    enrolled(student, core(bcyber, 20), 3, 2, busl3015).
+    enrolled(student, core(bcyber, 20), 3, 2, busl3015),
 	enrolled(student,flexible(4),3,2,flex(4)).
 
 :- not goal.
