@@ -29,5 +29,5 @@ core_unit(bcyber, 19, comp3100).
 core_unit(bcyber, 19, comp3250).
 
 core_unit(bcyber, 20, accg3060).
-core_unit(bcyber, 20, busl3015).
+core_unit(bcyber, 20, accg3025).
 
