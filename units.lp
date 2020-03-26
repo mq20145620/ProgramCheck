@@ -132,10 +132,11 @@ prereq_unit(comp2310, 2, comp1350).
 coreq_unit(comp2310, 1, comp2250).
 
 unit(comp, comp2320, 2, "Offensive Security").
+unit_offered(comp2320, 1).
 unit_offered(comp2320, 2).
-prereq_unit(comp2320, 1, comp2110).
-prereq_unit(comp2320, 2, comp2250).
-prereq_unit(comp2320, 3, comp2300).
+coreq_unit(comp2320, 1, comp2110).
+coreq_unit(comp2320, 2, comp2250).
+coreq_unit(comp2320, 3, comp2300).
 
 unit(comp, comp2350, 2, "Database Systems").
 unit_offered(comp2350,2).
@@ -420,9 +421,16 @@ prereq_unit(accg358, 1, accg250).
 prereq_unit(accg358, 1, accg251).
 prereq_credit_points(accg358, 1, 130).
 
+unit(accg, accg3025, 3, "Cyber Security and Privacy").
+unit_offered(accg3025, 2).
+prereq_credit_points(accg3025, 1, 130).
+
 unit(accg, accg3060, 3, "Cyber Security Governance and Ethics").
-unit_offered(accg3060, 2).  % TODO: This is a guess
-% prereqs unknown
+unit_offered(accg3060, 1). 
+prereq_unit(accg3060, 1, accg250).
+prereq_unit(accg3060, 1, pict2001).
+prereq_unit(accg3060, 2, accg2065).
+prereq_unit(accg3060, 2, pict2001).
 prereq_credit_points(accg3060, 1, 130).
 
 %
