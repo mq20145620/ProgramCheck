@@ -48,7 +48,7 @@ unit_offered(comp1050,1).
 unit_offered(comp1050,2).
 
 unit(comp, comp1150, 1, "Introduction to Video Games").
-unit_offered(comp1150,1).
+unit_offered(comp1150,2).
 
 unit(comp, comp1160, 1, "Modelling and Animation").
 unit_offered(comp1160,2).
