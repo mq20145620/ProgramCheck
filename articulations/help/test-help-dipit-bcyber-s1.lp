@@ -42,15 +42,15 @@ goal :-
     enrolled(student, core(bcyber, 13), 1, 2, comp2320),
 	credit_at_time(student, 1, 2, 40),
 
-    enrolled(student, core(bcyber, 15), 2, 1, comp3300),
+    enrolled(student, core(bcyber, 17), 2, 1, comp3320),
     enrolled(student, core(bcyber, 14), 2, 1, pict2001),
     enrolled(student, core(bcyber, 19), 2, 1, COMP3XXX),
 	enrolled(student, flexible(4), 2, 1, flex(4)),
 	credit_at_time(student, 2, 1, 40),
 
+    enrolled(student, core(bcyber, 15), 2, 2, comp3300),
     enrolled(student, core(bcyber, 16), 2, 2, comp3310),
     enrolled(student, core(bcyber, 18), 2, 2, comp3850),
-    enrolled(student, core(bcyber, 17), 2, 2, comp3320),
     enrolled(student, core(bcyber, 20), 2, 2, COMP3YYY),
    	credit_at_time(student, 2, 2, 40).
 
