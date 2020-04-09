@@ -228,8 +228,10 @@ prereq_unit(comp3250, 3, math2007).
 
 unit(comp, comp3300, 3, "Data Privacy and Information Security").
 unit_offered(comp3300, 1).
-prereq_unit(comp3300, 1, comp1300).
-prereq_unit(comp3300, 2, comp2300).
+prereq_unit(comp3300, 1, comp1010).
+prereq_unit(comp3300, 2, math1007).
+prereq_unit(comp3300, 2, math2007).
+prereq_credit_points(comp3300, 1, 130).
 
 unit(comp, comp3310, 3, "Secure App Development").
 unit_offered(comp3310, 2).
@@ -550,6 +552,16 @@ unit(meco, meco3150, 3, "Media Internship").
 unit_offered(meco3150, 1).
 unit_offered(meco3150, 2).
 coreq_unit(meco3150, 1, meco3029).
+
+%
+% mgmt
+%
+
+unit(mgmt, mgmt1020, 3, "Entrepreneurship and New Venture Management").
+unit_offered(mgmt1020, 1).
+unit_offered(mgmt1020, 2).
+prereq_credit_points(mgmt1020, 1, 30).
+
 
 %
 % pict
