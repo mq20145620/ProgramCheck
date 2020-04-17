@@ -619,8 +619,7 @@ prereq_credit_points(stat3102, 1, 130).
 
 unit(stat, stat3110, 3, "Statistical Inference").
 unit_offered(stat3110, 1).
-prereq_unit(stat3110, 1, stat2372).
-prereq_unit(stat3110, 2, stat2173).
+prereq_unit(stat3110, 1, stat2170).
 prereq_unit(stat3110, 2, comp2200).
 prereq_credit_points(stat3110, 1, 130).
 
